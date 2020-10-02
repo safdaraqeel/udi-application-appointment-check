@@ -4,8 +4,10 @@
   "description": "Simple check for UDI appointment availability",
   "main": "index.js",
   "dependencies": {
-    "chromedriver": "^84.0.1",
-    "selenium-side-runner": "^3.17.0"
+    "chromedriver": "^85.0.1",
+    "geckodriver": "^1.20.0",
+    "selenium-side-runner": "^3.17.0",
+    "selenium-webdriver": "^4.0.0-alpha.7"
   },
   "devDependencies": {},
   "scripts": {
@@ -13,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gdubya/udi-application-appointment-check.git"
+    "url": "git+https://github.com/hammadirshad/udi-application-appointment-check.git"
   },
   "author": "Gareth Western",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gdubya/udi-application-appointment-check/issues"
+    "url": "https://github.com/hammadirshad/udi-application-appointment-check/issues"
   },
-  "homepage": "https://github.com/gdubya/udi-application-appointment-check#readme"
+  "homepage": "https://github.com/hammadirshad/udi-application-appointment-check#readme"
 }
