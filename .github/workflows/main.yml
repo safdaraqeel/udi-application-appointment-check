@@ -5,7 +5,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: "*/15 5-23 * * *"
+    - cron: "*/15 5-23 * 11-12 *"
 
 jobs:
   do-check:
