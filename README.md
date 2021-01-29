@@ -11,7 +11,7 @@ The month must be fully spelled out in English, e.g *August 2021*.
 By default, the script is run between 5am and 11pm each half hour. This behavior can be configured by
 changing the cron expression in the *.github/workflows/main.yaml* file. The time zone on GitHub is UTC
 
-You can test the script locally by running
+You can test the script locally by running as
 
 ```cmd
 ./check-udi.side <email> <password> <limit>
